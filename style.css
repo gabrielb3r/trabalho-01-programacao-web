@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+}
+body{
+    background: url(images/background-003.jpg) no-repeat;
+    background-size: cover;
+}
+header{
+    color: ivory;   
+    background-color: #005fa3;
+}
+h1{
+    text-align: center;    
+}
+.navbar>ul{
+    list-style: none;
+    display: flex;
+}
+.card{
+    background-color: white;
+    margin: 1rem;
+    padding: 0.2rem;
+}
+#imagemCabecalho{
+    height: 300px; /* height of container */
+    object-fit: cover;
+
+}
+.card-header{
+    background: url(images/background-003.jpg);
+    background-size: cover;
+    color: ivory;
+}
+.card-header>img{
+    width: 150px;
+    height: 100%;
+    background-color: white;
+    border-radius: 50%;
+}
+.card-header>h2{
+    text-align: center;
+}
+.usuarioInfo{
+    text-align: center;
+    list-style: none;
+}
+.redeSocial{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+}
+footer{
+    text-align: center;
+}
+footer>a{
+    color: ivory;
+}
