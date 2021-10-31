@@ -1,33 +1,80 @@
 *{
-    margin: 0;
+    margin: 0px;
 }
 body{
-    background: url(images/background-003.jpg) no-repeat;
+ 
+    background: url(images/background-003.png) no-repeat;
     background-size: cover;
 }
 header{
-    color: ivory;   
-    background-color: #005fa3;
+    color: ivory;
+    background: url(images/background-Stripe.png) no-repeat;
+    
+
 }
 h1{
-    text-align: center;    
+
+    text-align: center;
+    font-family: 'Montserrat',sans-serif;
+    font-style: italic;
+    font-weight: 800;  
+}
+
+.container{
+
+    margin-top: 50px;
+    margin-bottom: 40px;
 }
 .navbar>ul{
     list-style: none;
     display: flex;
 }
-.card{
+
+.card-perfil:hover {
+
+    transform: scale(1.05);
+    
+}
+.card-perfil{
+
     background-color: white;
     margin: 1rem;
     padding: 0.2rem;
+    box-shadow:
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12) ;
+    transition: transform .2s;
+    font-family: 'Montserrat', sans-serif;
+
 }
+
+.card{
+
+    background-color: white;
+    margin: 1rem;
+    padding: 0.2rem;
+    box-shadow:
+    0 100px 80px rgba(0, 0, 0, 0.12) ;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.card>.article {
+
+    background-color: white;
+    margin: 2px;
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
 #imagemCabecalho{
-    height: 300px; /* height of container */
+    height: 300px; 
     object-fit: cover;
 
 }
 .card-header{
-    background: url(images/background-003.jpg);
+    background: url(images/background-card.png);
     background-size: cover;
     color: ivory;
 }
@@ -43,13 +90,21 @@ h1{
 .usuarioInfo{
     text-align: center;
     list-style: none;
+    
 }
+
+.redeSocial img:hover {
+
+    transform: scale(1.1);
+}
+
 .redeSocial{
     list-style: none;
     padding: 0;
     display: flex;
     gap: 0.5rem;
     justify-content: center;
+    transition: transform .2s;
 }
 footer{
     text-align: center;
