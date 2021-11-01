@@ -8,12 +8,11 @@ body{
 }
 header{
     color: ivory;
-    background: url(images/background-Stripe.png) no-repeat;
+    background: url(images/background-Stripe.png) repeat-x;
     
 
 }
 h1{
-
     text-align: center;
     font-family: 'Montserrat',sans-serif;
     font-style: italic;
